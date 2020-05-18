@@ -1,6 +1,6 @@
 # Roommate Finder
 ### This is an online service, providing residency to students looking for accomodation 05/17/2020
-### By Eileen, Leon Dante, Zahid Awadh
+### By Phylis, Eileen, Leon Dante, Zahid Awadh, Vivian
 #### Description
 Roommate finder, demo real-estate website built with HTML, CSS, JavaScript.
 #### Instructions
