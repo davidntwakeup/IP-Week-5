@@ -2,7 +2,7 @@ body{
     overflow-y: hidden;
     overflow-x: scroll;
     background-size: cover;
-    background-image: url(./img/room-x.jpg);
+    background-image: url("./img/room1.jpg");
 }.load{
     animation: slide 2s;
     transition: ease;
@@ -15,7 +15,7 @@ body{
     animation: slide 30s infinite;
 }.header{
     background-color: whitesmoke;
-    background-image: url(./img/room1.jpg);
+    background-image: url("./img/room1.jpg");
 }.content{
     width: 100%;
     height: 100vh;
@@ -61,4 +61,4 @@ body{
     color: #fff;
 }.principal p{
     font-size: 23px;
-}`
+}
