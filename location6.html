@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
         <link rel="stylesheet" href="css/Bootstrap/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="css/styles.css">
         <title>Kasarani</title>
@@ -12,8 +14,7 @@
                     <label class="logo">LOGO</label>
                     <ul>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Order</a></li>
-                        <li><a href="#">Amenities</a></li>
+                        <li><a href="#">Book</a></li>
                         <li><a href="#">Contact</a></li>
 
                     </ul>
@@ -46,28 +47,71 @@
                 <div class="book-button">
                     <button type="submit" id="submit">BOOK A ROOM</button>
                 </div>
-                <div>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <div><img src="images/1.jfif" alt="" height="400px" width="400px"></div> 
+                        </div>
+                        <div class="swiper-slide">
+                            <div><img src="images/11.jfif" alt="" height="400px" width="400px"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div><img src="images/10.jfif" alt="" height="400px" width="400px"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div><img src="images/12.jfif" alt="" height="400px" width="400px"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div><img src="images/2.jfif" alt="" height="400px" width="400px"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div><img src="images/5.jfif" alt="" height="400px" width="400px"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div><img src="images/7.jfif" alt="" height="400px" width="400px"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div><img src="images/4.jfif" alt="" height="400px" width="400px"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div><img src="images/6.jfif" alt="" height="400px" width="400px"></div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
-            </section>
-            <section class="amenities">
-                <h1>Amenities</h1>
-                <p> The amenities around the area includes</p>
             </section>
             <section class="contact-details">
             <h1>Contacts</h1>
+            <p> Please call us for free on <span>0100 333 222</span> to know about roomavailability, visit us or even send a mail</p>
             </section>
             <footer>
                 <p>&copy; Copyrights Roommatefinder 2020</p>
             </footer>
         </div>
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src='js/script.js'></script>
+        <script src="css/swiper.min.js"></script>
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 3,
+                spaceBetween: 200,
+                slidesPerGroup: 3,
+                loop: true,
+                loopFillGroupWithBlank: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        </script>
     </body>
 </html>
