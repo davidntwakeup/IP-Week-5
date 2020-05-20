@@ -2,25 +2,35 @@ body{
     overflow-y: hidden;
     overflow-x: scroll;
     background-size: cover;
-    background-image: url("./img/room1.jpg");
-}.load{
+    background-image: url(../img/room1.jpg);
+}
+
+/* .load {
     animation: slide 2s;
     transition: ease;
-}.slider{
+} */
+
+/* .slider{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 100vh;
     animation: slide 30s infinite;
-}.header{
+} */
+
+.header{
     background-color: whitesmoke;
-    background-image: url("./img/room1.jpg");
-}.content{
+    background-image: url(./img/room1.jpg);
+}
+
+.content{
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
-}.button{
+}
+
+.button{
     position: absolute;
     top: 75%;
     left: 50%;
@@ -28,26 +38,35 @@ body{
     object-position: center;
     text-align: center;
     background-color: whitesmoke;
-}.btn{
+    border-radius: 8px;
+}
+
+.btn {
     display: table;
     text-align: center;
     letter-spacing: .02;
     font-weight: 700;
     background-color: whitesmoke;
-    border-radius: 24em;
+    border-radius: 8px;
     border: 1px solid #fff;
     padding: 10px;
     margin-bottom: 1em;
     color: #fff;
     text-decoration: none;
     transition: ease;
-}.btn-medium{
+}
+
+.btn-medium{
     font-size: 1em;
     padding: 1em 2em;
-}.btn:hover{
+}
+
+.btn:hover{
     background-color: white;
     color: #fff;
-}.principal{
+}
+
+.principal{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -59,6 +78,8 @@ body{
     font-size: 50px;
     margin-bottom: 35px;
     color: #fff;
-}.principal p{
+}
+
+.principal p{
     font-size: 23px;
 }
