@@ -1,11 +1,52 @@
-# Roommate Finder
-### This is an online service, providing residency to students looking for accomodation 05/17/2020
-### By Phylis, Eileen, Leon Dante, Zahid Awadh, Vivian, Faith
-#### Description
-Roommate finder, demo real-estate website built with HTML, CSS, JavaScript.
-#### Instructions
-This is a website. Copy the URL and paste it in your browser or click on the link below.
-#### Link to live site
-[Roommate Finder](https://davidntwakeup.github.io/IP-Week-5/)
-#### License
+## PROJECT NAME
+ - ROOMMATE FINDER
+ ## Author's Name
+ -  Zahid Awadh
+ - Leon Dante
+ -  Faith
+ - Eileen
+ - Phylis
+ -  Vivian
+
+## Setup instructions 
+ - git clone or download the zip file.
+
+ - Extract the zip file.
+
+ - cd project folder.
+
+ - launch the index.html file.
+
+## Technology Used
+ - HTML-We used html for displaying the content.
+ - CSS-We used css and bootstrap for styling the front-end of the website and making the landing page.
+ - JAVASCRIPT-We used javascript for dynamics.
+
+## BDD.
+  <img src="images/home.png">
+
+
+
+  - At the home page you will just press the order button and it will take you to our favorite options of pizza.
+
+
+
+   <img src="images/order.png">
+
+
+
+   <img src="images/checkout.png">
+
+   - At the favorites you can select the size, toppings and the crust and the checkout to get the total. 
+
+
+## Project's live Link
+ - Github link:Roommate Finder
+## Contact information.
+ - Email:roommatefinder@gmail.com.
+ - Phone-No: 0100 333 222.
+## License and Copyright information.
+ - MIT License Copyright 2020 Zahid Awadh
+ - 
+
 
