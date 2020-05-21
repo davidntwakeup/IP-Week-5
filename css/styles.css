@@ -120,6 +120,11 @@ nav  ul li a:hover{
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+    display: inline-block;
+    position: relative;
+    float: none;
+    margin-right: 5px;
+    overflow: hidden;
     }
     .amenities{
         text-align: center;
