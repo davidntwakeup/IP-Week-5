@@ -1,1 +1,5 @@
-<button onclick="document.location = 'default.asp'">HTML Tutorial</button>
+$(document).ready(function()  {
+  $("Nairobi").click(function() {
+    
+  }
+}
