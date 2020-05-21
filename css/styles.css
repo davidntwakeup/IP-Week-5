@@ -89,3 +89,13 @@ nav  ul li a:hover{
 .book-button{
     padding: 30px;
 }
+.book-button button{
+    border-radius: 10%;
+    height: 70px;
+    width: 190px;
+    color:black;
+    font-size: 24px;
+    background-color: #F64c72;
+    font-weight: bolder;
+    border:2px solid #F64c72;
+}
