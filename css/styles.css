@@ -19,3 +19,18 @@ label.roomie{
     color: #F64c72;
     line-height: 80px;
 }
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin:0 5px;
+    line-height: 80px;
+}
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
