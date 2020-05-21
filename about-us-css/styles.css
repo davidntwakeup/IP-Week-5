@@ -1,0 +1,12 @@
+#about-us{
+    min-height: 70vh;
+    align-items: center;
+}
+#about-us.content{
+    padding: 65px 50px 85px;
+    width: 100%;
+    background-color: #ffa500;
+    float: right;
+    text-align: justify;
+    overflow-x: hidden;
+}
