@@ -78,3 +78,14 @@ nav  ul li a:hover{
     text-emphasis: spacing;
 
 }
+.about-details p{
+    line-height: 30px;
+
+}
+.order-section{
+    text-align: center;
+    height: 100vh;
+}
+.book-button{
+    padding: 30px;
+}
