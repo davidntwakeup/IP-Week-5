@@ -1,5 +1,5 @@
 body{
-    color: white;
+    color:black;
     background-color: aqua;
 }
 nav{
@@ -120,4 +120,14 @@ nav  ul li a:hover{
     -webkit-align-items: center;
     align-items: center;
     }
-    
+    .amenities{
+        text-align: center;
+        height: 100vh;
+    }
+    .contact-details{
+        text-align: center;
+        height: 100vh;
+    }
+    footer{
+        text-align: center;
+    }
