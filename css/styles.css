@@ -34,3 +34,14 @@ nav ul li a{
     padding: 7px 13px;
     border-radius: 3px;
 }
+a.active, a:hover{
+    background:#F64c72;
+    transition: 5s;
+    color:white;
+    
+}
+nav  ul li a:hover{
+  color: black;
+  transition: 0.5s;
+  text-transform: uppercase;
+}
