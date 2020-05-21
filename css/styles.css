@@ -37,10 +37,9 @@ body{
     transform: translate(-55%,-50%);
     object-position: center;
     text-align: center;
-    background-color: whitesmoke 100%;
+    background-color: whitesmoke ;
     border-radius: 8px;
-    border: 0.01em solid #FFFFFF;
-
+    border: 0.1em solid #FFFFFF;
 }
 
 .btn {
