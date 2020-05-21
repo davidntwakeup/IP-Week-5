@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: auto;
+}
 body{
     overflow-y: hidden;
     overflow-x: scroll;
@@ -98,6 +101,10 @@ body{
 
 .jumbotron {
   background-color: #E36F3C;
+  font-family: 'Butcherman', cursive;
+  padding-bottom:10%;
+  padding-top:10%;
+  padding-left:15%;
 }
 
 .danger {
