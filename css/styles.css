@@ -45,3 +45,24 @@ nav  ul li a:hover{
   transition: 0.5s;
   text-transform: uppercase;
 }
+.about{
+    text-align: center;
+    height: 100vh;
+    padding-top: 100px;
+}
+.about ul{
+    list-style: none;
+}
+.about ul li{
+    display: inline-block;
+    margin:0 5px;
+    line-height: 20px;
+
+
+}
+.about ul li a{
+    color: white;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
