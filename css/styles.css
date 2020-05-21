@@ -11,3 +11,11 @@ nav{
     top:0;
 
 }
+label.roomie{
+    font-size: 25px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+    color: #F64c72;
+    line-height: 80px;
+}
