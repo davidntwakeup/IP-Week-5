@@ -1,3 +1,90 @@
+body{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    background-size: cover;
+    background-image: url(../img/room1.jpg);
+}
+
+/* .load {
+    animation: slide 2s;
+    transition: ease;
+} */
+
+/* .slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 30s infinite;
+} */
+
+.header{
+    background-color: whitesmoke;
+    background-image: url(./img/room1.jpg);
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.button{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-55%,-50%);
+    object-position: center;
+    text-align: center;
+    background-color: whitesmoke ;
+    border-radius: 8px;
+    border: 0.1em solid #FFFFFF;
+}
+
+.btn {
+    display: table;
+    text-align: center;
+    letter-spacing: .02;
+    font-weight: 700;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-bottom: 1em;
+    color: #fff;
+    text-decoration: none;
+    transition: ease;
+}
+
+.btn-medium{
+    font-size: 1em;
+    padding: 1em 2em;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #fff;
+}
+
+.principal{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    letter-spacing: 3px;
+    text-align: center;
+    text-align: center;
+    color: #fff;}.principal h1{
+    font-size: 50px;
+    margin-bottom: 35px;
+    color: #fff;
+}
+
+.principal p{
+    font-size: 23px;
+}
+
 @media() {
  
 }
