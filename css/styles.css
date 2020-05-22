@@ -243,3 +243,27 @@ p {
   padding-bottom: 20px;
   line-height: 1.7em;
 }
+
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url('img/room3.jpg') no-repeat;
+  min-height: 100%;
+}
+
+#home-info .info-detail {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-detail p {
+  padding-bottom: 30px;
+}
